@@ -1,0 +1,8 @@
+.home-nav {
+  position: fixed;
+}
+
+.home-content {
+  width: calc(100vw - 300px);
+  margin-left: 280px;
+}

@@ -1,0 +1,13 @@
+.action-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: var(--transition-default);
+}
+.action-icon:hover {
+  scale: 1.1;
+}
+
+.delete-icon {
+  color: rgb(179, 179, 179);
+}
