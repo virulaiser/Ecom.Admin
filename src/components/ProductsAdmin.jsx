@@ -10,9 +10,6 @@ function ProductsAdmin() {
       const response = await axios({
         method: "get",
         url: `${import.meta.env.VITE_API_URL}/admin/products`,
-        /* headers: {
-          Authorization: "Bearer " + (user && user.token),
-        }, */
       });
       console.log(response.data);
       response && setProduct(response.data);
