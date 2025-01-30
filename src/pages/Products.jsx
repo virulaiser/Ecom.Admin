@@ -61,7 +61,11 @@ function Products() {
                     <td className="align-middle">
                       <img
                         className="img-fluid img-thumbnail p-0"
-                        src={`${ import.meta.env.VITE_URL_SUPABASE}/storage/v1/object/public/products/${item.image}?//t=2023-09-19T13%3A20%3A01.474Z`}
+                        src={`${
+                          import.meta.env.VITE_SUPABASE_URL
+                        }/storage/v1/object/public/products/${
+                          item.image
+                        }?//t=2023-09-19T13%3A20%3A01.474Z`}
                       />
                     </td>
                     <td className="col align-middle">{item.name}</td>
